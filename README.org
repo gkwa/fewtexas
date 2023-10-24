@@ -1,0 +1,12 @@
+Learning go.
+
+You can modify a package level variable (pkg A) with anothher package pkg B as long as pkg A provides setter function.
+
+1. set variable in package limespeed
+1. query its value, observe what you expect, it has initial value you defined
+1. in package fewtexas, adjust limespeed variable
+1. in package fewtexas query limespeed variable value again
+1. observe that the value has changed
+
++ https://github.com/taylormonacelli/limespeed/#readme
++ https://github.com/taylormonacelli/fewtexas/#readme
